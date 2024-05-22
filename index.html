@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="Images/logo@2x.png" alt="">
+                    <div class="logo-content">
+                        <h1>Weather</h1>
+                        <small>tagline goes here</small>
+                    </div>
+                </div>
+                <div class="toggle-menue" id="toggle-btn">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <ul class="nav">
+                    <li ><a href="" class="active">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Live cameras</a></li>
+                    <li><a href="">photo</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="container">
+            <div class="location">
+                <input type="text" placeholder="find your location ..." id="place">
+                <button>find</button>
+            </div>
+            <div class="weather-content">
+                <div class="box1">
+                    <div class="wHeader">
+                        <div class="day" id="day">Sundauy</div>
+                        <div class="date" id="month">19May</div>
+                    </div>
+                    <div class="wContent">
+                        <div class="city" id="region">cairo</div>
+                        <div class="degree">
+                            <div class="num" id="temp">29<sup>o</sup>C</div>
+                            <div class="icon" id="icon"><img src="Images/113.webp" alt=""></div>
+                        </div>
+                        <div class="addtion" id="addtion">Clear</div>
+                        
+                            <span >
+                                <img src="Images/icon-umberella.png" alt="">20%
+                            </span>
+                            <span >
+                                <img src="Images/icon-wind.png" alt="">18km/h
+                            </span>
+                            <span >
+                                <img src="Images/icon-compass.png" alt="">East
+                            </span>
+                    </div>
+                </div>
+                <div class="box2" id="anotherDay">
+                    <div class="wHeader" >Monday</div>
+                    <div class="wContent">
+                        <div class="logo" ><img src="Images/113.webp" alt=""></div>
+                        <div class="num" >42<sup>o</sup>c</div>
+                        <small>27.4
+                            <sup>o</sup>
+                        </small>
+                        <div class="state" >Sunny</div>
+                    </div>
+                </div>
+                <div class="box3" id="anotherDay1">
+                    <div class="wHeader" >Tuseday</div>
+                    <div class="wContent">
+                        <div class="logo" ><img src="images/113.webp" alt=""></div>
+                        <div class="num" >
+                            42
+                            <sup>o</sup>
+                            c
+                        </div>
+                        <small>27.4
+                            <sup>o</sup>
+                        </small>
+                        <div class="state">Sunny</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+
+            <div class="contact">
+                <div class="info">
+                    <input type="text" placeholder="find your location ...">
+                    <button>find</button>
+                </div>
+                <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+            <div class="social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
